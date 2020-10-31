@@ -15,11 +15,9 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://budget:enguMY@2019@ds051585.mlab.com:51585/heroku_7brj2whl", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useNewUrlParser: true,
-  useFindAndModify: false,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
+  useFindAndModify: false
 });
 
 // routes
