@@ -19,5 +19,7 @@ When brought back online:
   * Offline entries should be added to tracker.
 
 https://drive.google.com/file/d/18x5xVku_w3aAC4DLjW3QJDb-xjbY6vKX/view
+
 https://github.com/metasabeya/Progressive-Budget
+
 https://budget-tracker-mety.herokuapp.com/
